@@ -7,12 +7,10 @@ class ModelCachorro {
                 type: database.db.Sequelize.INTEGER,
                 primaryKey: true,
                 autoIncrement: true
-            },
-        
+            },        
             nome: {
                 type: database.db.Sequelize.STRING
             },
-
             raca: {
                 type: database.db.Sequelize.STRING,
                 unique: true 
